@@ -1,0 +1,58 @@
+.pricing-card-pricing-card {
+  position: relative;
+}
+.pricing-card-container {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pricing-card-container1 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.pricing-card-text {
+  text-transform: uppercase;
+}
+.pricing-card-container2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: row;
+}
+.pricing-card-text1 {
+  font-size: 1.15rem;
+  margin-top: var(--dl-space-space-twounits);
+  font-weight: 300;
+}
+.pricing-card-free-plan-price {
+  font-size: 4rem;
+}
+.pricing-card-pasted-image {
+  width: 400px;
+  height: 263px;
+}
+.pricing-card-button {
+  width: 100%;
+}
+@media(max-width: 991px) {
+  .pricing-card-pricing-card {
+    width: 100%;
+    padding: var(--dl-space-space-twounits);
+    max-width: 450px;
+  }
+}
+@media(max-width: 767px) {
+  .pricing-card-pricing-card {
+    width: 100%;
+    max-width: 450px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+}
